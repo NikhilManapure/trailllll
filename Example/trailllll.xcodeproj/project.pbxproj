@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		066470693AB378B1F27B6D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		066470693AB378B1F27B6D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1775506B3B3BD0F57FA55619 /* Pods_trailllll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trailllll_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B1E1F7BF1ACDE4D7BF2E9E /* Pods-trailllll_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trailllll_Example.release.xcconfig"; path = "Target Support Files/Pods-trailllll_Example/Pods-trailllll_Example.release.xcconfig"; sourceTree = "<group>"; };
-		249DB9F7F5C40D8777997A96 /* trailllll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = trailllll.podspec; path = ../trailllll.podspec; sourceTree = "<group>"; };
-		2C66A2F927423AFF210312B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		249DB9F7F5C40D8777997A96 /* trailllll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = trailllll.podspec; path = ../trailllll.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C66A2F927423AFF210312B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* trailllll_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trailllll_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				8B0F7821710173025C26AF2A /* Pods-trailllll_Tests.debug.xcconfig */,
 				F8FC1EF63AF767F7CE2F770B /* Pods-trailllll_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = UW7RH4KHDS;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = UW7RH4KHDS;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -482,6 +483,7 @@
 			baseConfigurationReference = 95B747E6B49A52F3FBA77C3A /* Pods-trailllll_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UW7RH4KHDS;
 				INFOPLIST_FILE = trailllll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +499,7 @@
 			baseConfigurationReference = 22B1E1F7BF1ACDE4D7BF2E9E /* Pods-trailllll_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UW7RH4KHDS;
 				INFOPLIST_FILE = trailllll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B0F7821710173025C26AF2A /* Pods-trailllll_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UW7RH4KHDS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8FC1EF63AF767F7CE2F770B /* Pods-trailllll_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = UW7RH4KHDS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
