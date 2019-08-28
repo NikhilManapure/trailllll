@@ -1,0 +1,27 @@
+{
+  "name": "trailllll",
+  "version": "0.1.0",
+  "summary": "A short description of trailllll.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NikhilManapure/trailllll",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NikhilManapure": "nikhilmshchs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/NikhilManapure/trailllll.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "iOS/Classes/**/*",
+  "dependencies": {
+    "Analytics": [
+      "~> 3.0"
+    ]
+  }
+}

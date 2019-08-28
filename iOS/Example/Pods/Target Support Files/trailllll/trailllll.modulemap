@@ -1,0 +1,6 @@
+framework module trailllll {
+  umbrella header "trailllll-umbrella.h"
+
+  export *
+  module * { export * }
+}

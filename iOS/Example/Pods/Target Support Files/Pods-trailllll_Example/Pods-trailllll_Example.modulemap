@@ -1,0 +1,6 @@
+framework module Pods_trailllll_Example {
+  umbrella header "Pods-trailllll_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

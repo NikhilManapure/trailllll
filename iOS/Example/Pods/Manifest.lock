@@ -1,0 +1,23 @@
+PODS:
+  - Analytics (3.6.10)
+  - trailllll (0.1.0):
+    - Analytics (~> 3.0)
+
+DEPENDENCIES:
+  - trailllll (from `../../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Analytics
+
+EXTERNAL SOURCES:
+  trailllll:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Analytics: 63744ad4afa65c3bcdcdb7a94b62515bde5b3900
+  trailllll: c6e6c787b169ee88a639c66d48c49e77d813981c
+
+PODFILE CHECKSUM: 734a744094bac8d711f3f86a0ac10db31112c054
+
+COCOAPODS: 1.6.0
