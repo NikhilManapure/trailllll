@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "iOS/trailllll/Classes/**/*"
+  "source_files": "iOS/trailllll/Classes/**/*",
+  "vendored_frameworks": "iOS/trailllll/Framework/Analytics.framework"
 }

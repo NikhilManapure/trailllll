@@ -8,9 +8,13 @@ public class EventValidator {
                 "price": ["type": "number"],
             ],
             "required": ["name"],
-            ])
+        ])
+        if schema.validate(props).valid {
+            SEGAnalytics.setup(with: SEGAnalyticsConfiguration(writeKey: ""))
+            SEGAnalytics.shared()?.track(event, properties: props)
+        } else {
+//            fatalError()
+        }
         return schema.validate(props).valid
     }
-    
-    
 }
