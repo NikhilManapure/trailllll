@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "trailllll-Bridging-Header.h"
 
 FOUNDATION_EXPORT double trailllllVersionNumber;
 FOUNDATION_EXPORT const unsigned char trailllllVersionString[];

@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "iOS/Classes/**/*",
-  "dependencies": {
-    "Analytics": [
-      "~> 3.0"
-    ]
-  }
+  "source_files": "iOS/trailllll/Classes/**/*"
 }
